@@ -1,11 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
-import 'package:movie_list_view/model/movie.dart';
+import 'package:movi_db_api2/model/movie.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import 'movie_ui/movie_ui.dart';
@@ -71,8 +69,6 @@ class _MovieListViewState extends State<MovieListView> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Movies"),
-        backgroundColor: Colors.blueGrey.shade900,
-        brightness: Brightness.dark,
         actions: <Widget>[
           Padding(
               padding: EdgeInsets.only(right: 20.0),

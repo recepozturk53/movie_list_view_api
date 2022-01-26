@@ -1,6 +1,6 @@
-# movie_list_view
+# movi_db_api2
 
-A new Flutter application.
+A new Flutter project.
 
 ## Getting Started
 

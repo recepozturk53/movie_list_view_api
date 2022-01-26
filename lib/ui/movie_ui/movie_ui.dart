@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_list_view/model/movie.dart';
+import 'package:movi_db_api2/model/movie.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class MovieDetailsThumbnail extends StatelessWidget {
